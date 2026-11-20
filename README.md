@@ -1,12 +1,12 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=200&section=header&text=Thiago%20Benkendorf&fontSize=42&fontColor=e94560&fontAlignY=35&desc=Senior%20Software%20Engineer%20%E2%80%A2%20Architect%20%E2%80%A2%20Founder&descSize=16&descAlignY=55&descAlign=50&animation=fadeIn)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0b8fe0,100:0ea57d&height=200&section=header&text=Thiago%20Benkendorf&fontSize=42&fontColor=ffffff&fontAlignY=35&desc=Senior%20Software%20Architect%20%26%20Engineer&descSize=16&descAlignY=55&descAlign=50&animation=fadeIn)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&pause=1000&color=E94560&center=true&vCenter=true&random=false&width=600&lines=Building+production-grade+systems;Platform+architecture+%26+cloud-native+design;Founder+of+Nithron+%7C+nithron.com)](https://nithron.com)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&pause=1000&color=0EA57D&center=true&vCenter=true&random=false&width=640&lines=Building+production+systems+that+last;Architecture%2C+backend%2C+data%2C+cloud%2C+security;Running+Nithron+%7C+nithron.com)](https://nithron.com)
 
-<a href="https://nithron.com"><img src="https://img.shields.io/badge/Nithron-Studio-e94560?style=for-the-badge&labelColor=1a1a2e" alt="Nithron"></a>
-<a href="mailto:hello@nithron.com"><img src="https://img.shields.io/badge/Contact-hello@nithron.com-16213e?style=for-the-badge&labelColor=1a1a2e" alt="Email"></a>
-<a href="https://github.com/Nithron"><img src="https://img.shields.io/badge/Org-Nithron-0f3460?style=for-the-badge&labelColor=1a1a2e" alt="Nithron"></a>
+<a href="https://nithron.com"><img src="https://img.shields.io/badge/Nithron-Software_studio-0b8fe0?style=for-the-badge&labelColor=0f1114" alt="Nithron"></a>
+<a href="mailto:hello@nithron.com"><img src="https://img.shields.io/badge/Contact-hello@nithron.com-0ea57d?style=for-the-badge&labelColor=0f1114" alt="Email"></a>
+<a href="https://github.com/Nithron"><img src="https://img.shields.io/badge/Org-Nithron-1d2126?style=for-the-badge&labelColor=0f1114" alt="Nithron on GitHub"></a>
 
 </div>
 
@@ -15,18 +15,28 @@
 ## `$ whoami`
 
 ```kotlin
-val thiago = SoftwareEngineer(
-    location = listOf("Murjek, Sweden", "Berlin, Germany"),
-    focus = listOf("Backend Systems", "Platform Architecture", "Cloud-Native"),
-    languages = mapOf(
-        "daily" to listOf("Java", "Kotlin", "Go", "Python"),
-        "when needed" to listOf("C#", "TypeScript", "Rust")
-    ),
+val thiago = SoftwareArchitect(
+    role = "Senior Software Architect & Engineer",
+    location = "Veurne, Belgium", // Berlin from 2020 to 2025
+    experience = "10+ years in aviation, manufacturing and enterprise software",
+    focus = listOf("Architecture", "Backend & APIs", "Data", "Cloud & platform", "Security"),
+    languages = listOf("Java", "C#", "TypeScript", "Go", "Python"),
     philosophy = "Boring when it ships. Reliable when it runs."
 )
 ```
 
-> I build backend-heavy systems, APIs, and infrastructure that scale. Currently running **[Nithron](https://nithron.com)** — an independent software studio delivering architecture, cloud platforms, and production-ready engineering.
+> I design and build backend-heavy systems, APIs and infrastructure for aviation, manufacturing and enterprise software, for clients in Germany, Brazil and the US. I run **[Nithron](https://nithron.com)**, my one-person software studio, so clients work directly with me, from the first sketch to launch and after.
+
+---
+
+## `// recent work`
+
+- ✈️ **Aviation.** Designed the platform baseline for a next-generation Electronic Flight Bag: domain model, API contracts, offline-first secure sync and CI/CD standards.
+- 🛠️ **Aviation.** Modernized and stabilized a legacy EFB platform: 20 microservices to .NET 6, document search memory from ~1.2 GB to 400 MB, and four months leading the engineering team of 27.
+- 🏭 **Manufacturing.** Coordinated a six-person contractor team rebuilding an accountability platform for 270 users across four sites, with RBAC, audit trails and automated reconciliations.
+- 🧪 **Before Nithron, at OSYON.** A test conversion framework that did a planned two-year job, 300+ tests, in one week.
+
+More in the [case studies](https://nithron.com/case-studies/).
 
 ---
 
@@ -38,62 +48,60 @@ val thiago = SoftwareEngineer(
 
 ### 🖥️ NithronOS
 
-**Local-first HomeLab/NAS OS**
+**Local-first OS for NAS and homelabs**
 
-[![Repo](https://img.shields.io/badge/View_Repo-1a1a2e?style=flat-square&logo=github)](https://github.com/Nithron/NithronOS)
-![Stars](https://img.shields.io/github/stars/Nithron/NithronOS?style=flat-square&color=e94560&labelColor=1a1a2e)
-![Last Commit](https://img.shields.io/github/last-commit/Nithron/NithronOS?style=flat-square&color=0f3460&labelColor=1a1a2e)
+[![Repo](https://img.shields.io/badge/View_Repo-0f1114?style=flat-square&logo=github)](https://github.com/Nithron/NithronOS)
+![Stars](https://img.shields.io/github/stars/Nithron/NithronOS?style=flat-square&color=0b8fe0&labelColor=0f1114)
+![Last Commit](https://img.shields.io/github/last-commit/Nithron/NithronOS?style=flat-square&color=0ea57d&labelColor=0f1114)
 
-Debian-based, container-first OS for homelabs. Modular services, reproducible builds, clean upgrade paths.
+Debian-based, with Btrfs snapshots and rollback, a React dashboard, one-click Docker apps and NithronSync. Source-available, v0.9.5 pre-alpha.
 
-`Go` `Debian` `Docker` `ZFS`
+`Go` `React` `TypeScript` `Btrfs` `Docker`
 
 </td>
 <td width="50%" valign="top">
 
 ### 🧠 NithronAI
 
-**Modular AI Platform Starter**
+**Local-first document Q&A**
 
-[![Repo](https://img.shields.io/badge/View_Repo-1a1a2e?style=flat-square&logo=github)](https://github.com/Nithron/NithronAI)
-![Stars](https://img.shields.io/github/stars/Nithron/NithronAI?style=flat-square&color=e94560&labelColor=1a1a2e)
-![Last Commit](https://img.shields.io/github/last-commit/Nithron/NithronAI?style=flat-square&color=0f3460&labelColor=1a1a2e)
+[![Repo](https://img.shields.io/badge/View_Repo-0f1114?style=flat-square&logo=github)](https://github.com/Nithron/NithronAI)
+![Stars](https://img.shields.io/github/stars/Nithron/NithronAI?style=flat-square&color=0b8fe0&labelColor=0f1114)
+![Last Commit](https://img.shields.io/github/last-commit/Nithron/NithronAI?style=flat-square&color=0ea57d&labelColor=0f1114)
 
-FastAPI backend + web UI for RAG-style Q&A. Offline by default, clean service boundaries.
+Answers questions about your documents with citations. BM25 and optional semantic search in Qdrant, optional answers through Ollama, OpenAI or Anthropic. Open source (AGPL-3.0).
 
-`Python` `FastAPI` `LangChain` `Docker`
+`Python` `FastAPI` `Qdrant` `Ollama` `Docker`
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### ✈️ NIRO
+### ⚡ NotVolt-NEO
 
-**Aviation Ops / EFB Platform**
+**All-in-one Discord bot**
 
-[![Repo](https://img.shields.io/badge/View_Repo-1a1a2e?style=flat-square&logo=github)](https://github.com/Nithron/NIRO-backend)
-![Stars](https://img.shields.io/github/stars/Nithron/NIRO-backend?style=flat-square&color=e94560&labelColor=1a1a2e)
-![Last Commit](https://img.shields.io/github/last-commit/Nithron/NIRO-backend?style=flat-square&color=0f3460&labelColor=1a1a2e)
+[![Repo](https://img.shields.io/badge/View_Repo-0f1114?style=flat-square&logo=github)](https://github.com/noxhex/NotVolt-NEO)
+![Stars](https://img.shields.io/github/stars/noxhex/NotVolt-NEO?style=flat-square&color=0b8fe0&labelColor=0f1114)
+![Last Commit](https://img.shields.io/github/last-commit/noxhex/NotVolt-NEO?style=flat-square&color=0ea57d&labelColor=0f1114)
 
-Backend for electronic flight bag operations. Role-based access, audit trails, reliability-first.
+Java 24 and Gradle bot with moderation, music, AI features, a web panel and Patreon integration.
 
-`Java` `Kotlin` `PostgreSQL` `REST`
+`Java` `LavaLink` `Gradle` `REST`
 
 </td>
 <td width="50%" valign="top">
 
-### ⚡ NotVolt-NEO
+### 🛡️ Email spoofing check
 
-**All-in-One Discord Bot**
+**Free tool on nithron.com**
 
-[![Repo](https://img.shields.io/badge/View_Repo-1a1a2e?style=flat-square&logo=github)](https://github.com/NotTekk/NotVolt-NEO)
-![Stars](https://img.shields.io/github/stars/NotTekk/NotVolt-NEO?style=flat-square&color=e94560&labelColor=1a1a2e)
-![Last Commit](https://img.shields.io/github/last-commit/NotTekk/NotVolt-NEO?style=flat-square&color=0f3460&labelColor=1a1a2e)
+[![Try it](https://img.shields.io/badge/Try_it-0f1114?style=flat-square&logo=protonmail&logoColor=white)](https://nithron.com/email-check/)
 
-Java 24 + Gradle bot with moderation, music, AI features, web panel, and Patreon integration.
+Type a domain and see whether its SPF, DKIM and DMARC records stop others from sending email in its name. Nothing is stored.
 
-`Java` `LavaLink` `Gradle` `REST`
+`TypeScript` `Node.js` `DNS`
 
 </td>
 </tr>
@@ -105,21 +113,19 @@ Java 24 + Gradle bot with moderation, music, AI features, web panel, and Patreon
 
 <div align="center">
 
-[![Nithron Banner](https://img.shields.io/badge/🔧_Nithron-Independent_Software_Studio-e94560?style=for-the-badge&labelColor=1a1a2e)](https://nithron.com)
+[![Nithron](https://img.shields.io/badge/Nithron-Independent_software_studio-0b8fe0?style=for-the-badge&labelColor=0f1114)](https://nithron.com)
 
 </div>
 
-**What we deliver:**
-
 | | |
 |:--|:--|
-| **Backend Systems & APIs** | Production-ready services that power your product |
-| **Architecture & Leadership** | Clear system design for complex builds |
-| **Cloud & Platform** | Secure infrastructure, automation, calm operations |
-| **Data & Integrations** | Fast, reliable data layers across your stack |
-| **Security Hardening** | Practical improvements without slowing delivery |
+| **[Backend Systems & APIs](https://nithron.com/services/backend/)** | Production-ready APIs and services that power your product |
+| **[Architecture & Engineering Leadership](https://nithron.com/services/architecture/)** | Clear system design and technical direction for complex builds |
+| **[Cloud & Platform Engineering](https://nithron.com/services/platform/)** | Secure infrastructure and automation for calm, scalable operations |
+| **[Data, Databases & Integrations](https://nithron.com/services/data/)** | Fast, reliable data layers and integrations across your stack |
+| **[Security Reviews & Hardening](https://nithron.com/services/security/)** | Practical security improvements that reduce risk without slowing delivery |
 
-> *"Lean, senior-led engineering. From discovery to launch."*
+Quoted at an hourly, daily or monthly rate. I work in English, Portuguese and Spanish, on Central European Time.
 
 ---
 
@@ -129,29 +135,35 @@ Java 24 + Gradle bot with moderation, music, AI features, web panel, and Patreon
 
 **Languages**
 
-![Java](https://img.shields.io/badge/Java-e94560?style=flat-square&logo=openjdk&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
+
+**Frameworks**
+
+![Spring](https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white)
+![.NET](https://img.shields.io/badge/ASP.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-087EA4?style=flat-square&logo=react&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 
 **Infrastructure**
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/K8s-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![OpenShift](https://img.shields.io/badge/OpenShift-EE0000?style=flat-square&logo=redhatopenshift&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
-![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
 
 **Data**
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
 
 </div>
 
@@ -159,15 +171,15 @@ Java 24 + Gradle bot with moderation, music, AI features, web panel, and Patreon
 <summary><b>🔧 Full toolkit</b></summary>
 <br>
 
-**Languages:** C · C++ · Go · Java · JavaScript · Kotlin · Lua · Objective-C · Python · Ruby · Rust · TypeScript
+**Languages:** C · C++ · C# · Go · Java · JavaScript · Kotlin · Lua · Objective-C · Python · Ruby · Rust · TypeScript
 
 **Cloud:** AWS · Azure · GCP · Oracle Cloud · OVH
 
-**Frameworks:** Spring Boot · Quarkus · FastAPI · Node.js · React · Angular
+**Frameworks:** Spring Boot · Hibernate · Quarkus · ASP.NET Core · FastAPI · Node.js · React · Angular
 
 **Data:** PostgreSQL · MySQL · MariaDB · MongoDB · Redis · DynamoDB · InfluxDB · Kafka · Spark · Hadoop
 
-**DevOps:** Docker · Kubernetes · Terraform · Jenkins · GitLab CI · GitHub Actions · Nginx · Apache
+**DevOps:** Docker · Kubernetes · OpenShift · Terraform · Jenkins · GitLab CI · GitHub Actions · Nginx · Apache
 
 **Tools:** Git · Gradle · Maven · IntelliJ · VS Code · Raspberry Pi · Arduino
 
@@ -179,15 +191,13 @@ Java 24 + Gradle bot with moderation, music, AI features, web panel, and Patreon
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com/?user=NotTekk&theme=tokyonight&hide_border=true&background=1a1a2e&ring=e94560&fire=e94560&currStreakLabel=e94560" alt="GitHub Streak" />
+<img src="https://streak-stats.demolab.com/?user=noxhex&theme=tokyonight&hide_border=true&background=0f1114&ring=0ea57d&fire=0b8fe0&currStreakLabel=0ea57d" alt="GitHub streak" />
 
 <details>
 <summary><b>📈 More stats</b></summary>
 <br>
 
-![Trophy](https://github-profile-trophy.vercel.app/?username=NotTekk&theme=discord&no-frame=true&no-bg=true&column=4&margin-w=15&margin-h=15)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=NotTekk&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1a2e&title_color=e94560)
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=noxhex&layout=compact&theme=tokyonight&hide_border=true&bg_color=0f1114&title_color=0ea57d&text_color=c4c9d2)
 
 </details>
 
@@ -199,9 +209,9 @@ Java 24 + Gradle bot with moderation, music, AI features, web panel, and Patreon
 
 **Let's build something.**
 
-[![Website](https://img.shields.io/badge/nithron.com-e94560?style=for-the-badge&logo=firefox&logoColor=white)](https://nithron.com)
-[![GitHub](https://img.shields.io/badge/GitHub-1a1a2e?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NotTekk)
-[![Email](https://img.shields.io/badge/Email-0f3460?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hello@nithron.com)
+[![Website](https://img.shields.io/badge/nithron.com-0b8fe0?style=for-the-badge&logo=firefox&logoColor=white)](https://nithron.com)
+[![GitHub](https://img.shields.io/badge/GitHub-0f1114?style=for-the-badge&logo=github&logoColor=white)](https://github.com/noxhex)
+[![Email](https://img.shields.io/badge/Email-0ea57d?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:hello@nithron.com)
 
 <br>
 
@@ -209,6 +219,6 @@ Java 24 + Gradle bot with moderation, music, AI features, web panel, and Patreon
 
 <br>
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=100&section=footer)
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:0b8fe0,100:0ea57d&height=100&section=footer)
 
 </div>
