@@ -1,6 +1,6 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0b8fe0,100:0ea57d&height=200&section=header&text=Thiago%20Benkendorf&fontSize=42&fontColor=ffffff&fontAlignY=35&desc=Senior%20Software%20Architect%20%26%20Engineer&descSize=16&descAlignY=55&descAlign=50&animation=fadeIn)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0b8fe0,100:0ea57d&height=200&section=header&text=Thiago%20Benkendorf&fontSize=42&fontColor=ffffff&fontAlignY=35&desc=Senior%20Software%20Architect%20%26amp%3B%20Engineer&descSize=16&descAlignY=55&descAlign=50&animation=fadeIn)
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&pause=1000&color=0EA57D&center=true&vCenter=true&random=false&width=640&lines=Building+production+systems+that+last;Architecture%2C+backend%2C+data%2C+cloud%2C+security;Running+Nithron+%7C+nithron.com)](https://nithron.com)
 
@@ -15,12 +15,14 @@
 ## `$ whoami`
 
 ```kotlin
-val thiago = SoftwareArchitect(
+val thiago = SoftwareEngineer(
     role = "Senior Software Architect & Engineer",
-    location = "Veurne, Belgium", // Berlin from 2020 to 2025
-    experience = "10+ years in aviation, manufacturing and enterprise software",
-    focus = listOf("Architecture", "Backend & APIs", "Data", "Cloud & platform", "Security"),
-    languages = listOf("Java", "C#", "TypeScript", "Go", "Python"),
+    location = listOf("Veurne, Belgium"),
+    focus = listOf("Backend Systems", "Platform Architecture", "Cloud-Native"),
+    languages = mapOf(
+        "daily" to listOf("Java", "Kotlin", "Go", "Python"),
+        "when needed" to listOf("C#", "TypeScript", "Rust")
+    ),
     philosophy = "Boring when it ships. Reliable when it runs."
 )
 ```
@@ -135,35 +137,29 @@ Quoted at an hourly, daily or monthly rate. I work in English, Portuguese and Sp
 
 **Languages**
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Java](https://img.shields.io/badge/Java-0b8fe0?style=flat-square&logo=openjdk&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
-
-**Frameworks**
-
-![Spring](https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white)
-![.NET](https://img.shields.io/badge/ASP.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-087EA4?style=flat-square&logo=react&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
 
 **Infrastructure**
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![OpenShift](https://img.shields.io/badge/OpenShift-EE0000?style=flat-square&logo=redhatopenshift&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/K8s-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white)
 
 **Data**
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
 
 </div>
 
@@ -171,15 +167,15 @@ Quoted at an hourly, daily or monthly rate. I work in English, Portuguese and Sp
 <summary><b>🔧 Full toolkit</b></summary>
 <br>
 
-**Languages:** C · C++ · C# · Go · Java · JavaScript · Kotlin · Lua · Objective-C · Python · Ruby · Rust · TypeScript
+**Languages:** C · C++ · Go · Java · JavaScript · Kotlin · Lua · Objective-C · Python · Ruby · Rust · TypeScript
 
 **Cloud:** AWS · Azure · GCP · Oracle Cloud · OVH
 
-**Frameworks:** Spring Boot · Hibernate · Quarkus · ASP.NET Core · FastAPI · Node.js · React · Angular
+**Frameworks:** Spring Boot · Quarkus · FastAPI · Node.js · React · Angular
 
 **Data:** PostgreSQL · MySQL · MariaDB · MongoDB · Redis · DynamoDB · InfluxDB · Kafka · Spark · Hadoop
 
-**DevOps:** Docker · Kubernetes · OpenShift · Terraform · Jenkins · GitLab CI · GitHub Actions · Nginx · Apache
+**DevOps:** Docker · Kubernetes · Terraform · Jenkins · GitLab CI · GitHub Actions · Nginx · Apache
 
 **Tools:** Git · Gradle · Maven · IntelliJ · VS Code · Raspberry Pi · Arduino
 
