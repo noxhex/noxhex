@@ -1,19 +1,14 @@
-<p align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/noxhex/noxhex/main/assets/editor-dark.png">
-  <img src="https://raw.githubusercontent.com/noxhex/noxhex/main/assets/editor-light.png" alt="A pixel-art code editor writing a Go function from nOS, then running its test, which passes." width="794">
-</picture></p>
+<p><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/noxhex/noxhex/main/assets/hero-thiago-dark.svg"><img src="https://raw.githubusercontent.com/noxhex/noxhex/main/assets/hero-thiago-light.svg" alt="A terminal window. whoami: Thiago Benkendorf, senior software architect and engineer. Studio: Nithron, a one-engineer studio. Based in Veurne, Belgium." width="100%"></picture></p>
 
-# Thiago Benkendorf
+<p align="center"><a href="https://nithron.com">nithron.com</a> · <a href="https://ai.nithron.com">ai.nithron.com</a> · <a href="https://github.com/Nithron">Nithron on GitHub</a> · <a href="https://github.com/Nithron-Intelligence">Nithron Intelligence on GitHub</a></p>
 
-Senior software architect and engineer in Veurne, Belgium. I run [Nithron](https://nithron.com), a one-engineer studio: client engineering is the day job, and the software and the research are what it builds for itself.
+I run [Nithron](https://nithron.com), a one-engineer studio. Client engineering is the day job. The software and the research are what it builds for itself.
 
-```text
-10+ years        in production systems
-27 engineers     the largest team led
-ISO 27001, 9001  internal auditor
-```
+<p><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/noxhex/noxhex/main/assets/h-in-short-dark.svg"><img src="https://raw.githubusercontent.com/noxhex/noxhex/main/assets/h-in-short-light.svg" alt="in short" width="100%"></picture></p>
 
-## The record
+<p><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/noxhex/noxhex/main/assets/plate-whoami-dark.svg"><img src="https://raw.githubusercontent.com/noxhex/noxhex/main/assets/plate-whoami-light.svg" alt="Role: senior software architect and engineer. Years: 10+ in production systems. Team: up to 27 engineers led. Audits: ISO 27001 and ISO 9001 internal auditor. Clients: Germany and Brazil. Studio: Nithron, one engineer." width="100%"></picture></p>
+
+<p><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/noxhex/noxhex/main/assets/h-the-record-dark.svg"><img src="https://raw.githubusercontent.com/noxhex/noxhex/main/assets/h-the-record-light.svg" alt="the record" width="100%"></picture></p>
 
 Client work, with dates. More in the [case studies](https://nithron.com/case-studies/).
 
@@ -23,26 +18,17 @@ Client work, with dates. More in the [case studies](https://nithron.com/case-stu
 | One platform for 270 people on four sites | Manufacturing | 2024 to 2025, independent work alongside Nithron |
 | A migration of 300+ tests planned for two years, done in one week | Enterprise software, at OSYON | Before Nithron |
 
-Clients so far in Germany and Brazil.
+<p><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/noxhex/noxhex/main/assets/h-what-nithron-builds-dark.svg"><img src="https://raw.githubusercontent.com/noxhex/noxhex/main/assets/h-what-nithron-builds-light.svg" alt="what nithron builds" width="100%"></picture></p>
 
-## What Nithron builds for itself
+<p><a href="https://github.com/Nithron/nOS"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/noxhex/noxhex/main/assets/card-nos-dark.svg"><img src="https://raw.githubusercontent.com/noxhex/noxhex/main/assets/card-nos-light.svg" alt="nOS: a NAS operating system you can read. Pre-alpha." width="49%"></picture></a> <a href="https://github.com/Nithron-Intelligence/nAI"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/noxhex/noxhex/main/assets/card-nai-dark.svg"><img src="https://raw.githubusercontent.com/noxhex/noxhex/main/assets/card-nai-light.svg" alt="nAI: answers from your own files and names the source. In development." width="49%"></picture></a></p>
+<p><a href="https://github.com/Nithron/Niro"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/noxhex/noxhex/main/assets/card-niro-dark.svg"><img src="https://raw.githubusercontent.com/noxhex/noxhex/main/assets/card-niro-light.svg" alt="Niro: a Discord bot for moderation and security. Running." width="49%"></picture></a> <a href="https://ai.nithron.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/noxhex/noxhex/main/assets/card-lab-dark.svg"><img src="https://raw.githubusercontent.com/noxhex/noxhex/main/assets/card-lab-light.svg" alt="Nithron Intelligence: small models for hardware you own." width="49%"></picture></a></p>
 
-| | | |
-|:--|:--|:--|
-| **[nOS](https://github.com/Nithron/nOS)** | A NAS operating system you can read. Storage, shares, backups and apps from a dashboard on your own network. | Pre-alpha, source-available |
-| **[nAI](https://github.com/Nithron-Intelligence/nAI)** | Answers questions from the files on your own hardware and names the file, page and section it used. | Source-available |
-| **[Niro](https://github.com/Nithron/Niro)** | A Discord bot for communities, built around moderation and security. | Source-available |
-| **[Nithron Intelligence](https://ai.nithron.com)** | The research division: small models for hardware you own, measured on its own benchmark, with the number published either way. | Research |
+All three products are source-available under the Nithron Community License v1.0. That is not open source: read each LICENSE before you ship anything.
 
-All three products are under the Nithron Community License v1.0. Source-available is not open source: read each LICENSE before you ship anything.
+<p><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/noxhex/noxhex/main/assets/h-working-languages-dark.svg"><img src="https://raw.githubusercontent.com/noxhex/noxhex/main/assets/h-working-languages-light.svg" alt="working languages" width="100%"></picture></p>
 
-## Working languages
+<p><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/noxhex/noxhex/main/assets/chips-languages-dark.svg"><img src="https://raw.githubusercontent.com/noxhex/noxhex/main/assets/chips-languages-light.svg" alt="Daily: Java, Kotlin, Go, Python. When needed: C#, TypeScript, Rust." width="100%"></picture></p>
 
-```text
-daily        Java  Kotlin  Go  Python
-when needed  C#  TypeScript  Rust
-```
+<p><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/noxhex/noxhex/main/assets/h-contact-dark.svg"><img src="https://raw.githubusercontent.com/noxhex/noxhex/main/assets/h-contact-light.svg" alt="contact" width="100%"></picture></p>
 
-## Contact
-
-Not taking new projects right now. Still worth a message: [hello@nithron.com](mailto:hello@nithron.com). Replies come from one person.
+Not taking new projects right now. Still worth a message: hello@nithron.com. Replies come from one person.
